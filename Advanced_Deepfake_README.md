@@ -53,7 +53,7 @@ It also provides explainability using Grad-CAM visualization.
 ```
 Input → Preprocessing → Model → Prediction → Grad-CAM → Output
 
-<img width="781" height="482" alt="image" src="https://github.com/user-attachments/assets/3c497fbc-d3bd-47f5-bc88-6b29ce8102fe" />
+<img width="500" height="308" alt="Picture1" src="https://github.com/user-attachments/assets/66b9ce47-b780-4fcb-b2c8-3b9556660bda" />
 
 ```
 
