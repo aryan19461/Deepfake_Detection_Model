@@ -34,8 +34,6 @@ It also provides explainability using Grad-CAM visualization.
 
 
 
-### 🔹 Grad-CAM Visualization  
-<img width="1871" height="740" alt="Screenshot 2026-04-17 135802" src="https://github.com/user-attachments/assets/606ff6fc-833f-4611-ac88-51cc9c2bdd0f" />
 
 
 ---
