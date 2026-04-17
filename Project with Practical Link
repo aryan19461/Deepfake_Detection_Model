@@ -1,0 +1,185 @@
+# 🧠 Deepfake Detection System (Multi-Model + Explainable AI)
+
+## 🚀 Live Demo  
+- https://huggingface.co/spaces/Aryan19461/Deepfake_Detection_Model
+
+---
+
+## 📌 Overview  
+
+This project is a **Deepfake Detection Web Application** that identifies whether an image is **Real or Fake** using deep learning models.  
+
+The system is designed not only for prediction but also for **interpretability**, allowing users to understand *why* a model classified an image as fake.
+
+It combines **multiple CNN-based architectures** with **Grad-CAM visualization** to highlight manipulated regions in images.
+
+---
+
+## 🎯 Objectives  
+
+- Detect deepfake images with high accuracy  
+- Support multiple deep learning models  
+- Provide **real-time predictions via web interface**  
+- Improve transparency using **Explainable AI (Grad-CAM)**  
+- Enable easy deployment using **Hugging Face Spaces**
+
+---
+
+## 🏗️ System Architecture  
+
+The system follows this pipeline:
+
+
+User Input (Image/Webcam)
+↓
+Preprocessing (Resize + Normalization + Face Crop)
+↓
+Model Selection (CNN / MobileNetV3 / Xception)
+↓
+Prediction (Real / Fake + Confidence)
+↓
+Grad-CAM Visualization
+↓
+Final Output + Explanation
+
+
+
+---
+
+## 🤖 Models Used  
+
+### 1. Simple CNN  
+- Lightweight baseline model  
+- Fast inference  
+- Helps in comparison with advanced models  
+
+### 2. MobileNetV3  
+- Optimized for **real-time performance**  
+- Suitable for low-resource environments  
+- Balanced speed and accuracy  
+
+### 3. XceptionNet  
+- High-performance deep learning model  
+- Uses **depthwise separable convolutions**  
+- Best accuracy among all models  
+
+---
+
+## 🔍 Key Features  
+
+✔ Multi-model support (CNN, MobileNetV3, Xception)  
+✔ Real-time image prediction  
+✔ Face detection and cropping  
+✔ Confidence score output  
+✔ Grad-CAM heatmap visualization  
+✔ Explainable AI-based reasoning  
+✔ Web interface using Gradio  
+✔ Deployable on Hugging Face  
+
+---
+
+## 🧠 Explainable AI (Grad-CAM)  
+
+The system uses **Grad-CAM (Gradient-weighted Class Activation Mapping)** to:
+
+- Highlight important regions in the image  
+- Detect manipulation areas like:
+  - Face boundaries  
+  - Eyes and mouth regions  
+  - Texture inconsistencies  
+- Provide human-understandable explanations  
+
+---
+
+## 📊 Output Example  
+
+The model provides:
+
+- Predicted Label (Real / Fake)  
+- Confidence Score  
+- Class Probabilities  
+- Grad-CAM Visualization  
+- Explanation of detected artifacts  
+
+---
+
+## 🛠️ Technologies Used  
+
+- Python  
+- TensorFlow / Keras  
+- OpenCV  
+- NumPy  
+- Gradio (UI Interface)  
+- Hugging Face Spaces (Deployment)  
+
+---
+
+## 📂 Project Structure  
+├── app.py # Main application
+├── requirements.txt # Dependencies
+├── labels.json # Class labels
+├── models/ # Trained models
+└── README.md # Documentation
+
+
+---
+
+## ⚙️ How It Works  
+
+1. User uploads an image or uses webcam  
+2. Image is preprocessed (resize, normalize, face crop)  
+3. Selected model performs prediction  
+4. Probability scores are calculated  
+5. Grad-CAM highlights suspicious regions  
+6. Final result with explanation is displayed  
+
+---
+
+## 📈 Advantages  
+
+- High accuracy with advanced CNN architectures  
+- Lightweight option for real-time usage  
+- Interpretable results (not a black-box system)  
+- Easy deployment and accessibility  
+- Scalable for future improvements  
+
+---
+
+## 🚧 Limitations  
+
+- Performance depends on dataset diversity  
+- May struggle with unseen deepfake techniques  
+- Requires computational resources for heavy models  
+- Image-based detection only (no video/audio yet)  
+
+---
+
+## 🔮 Future Enhancements  
+
+- Video-based deepfake detection  
+- Audio-visual multimodal analysis  
+- Transformer-based models  
+- Real-time streaming detection  
+- Cloud deployment with APIs  
+- Mobile application integration  
+
+---
+
+## 👨‍💻 Author  
+
+**Aryan Singh**  
+M.Tech CSE | AI & Data Science Enthusiast  
+
+---
+
+## 📌 Conclusion  
+
+This project demonstrates how deep learning can be used to detect manipulated media while also ensuring **transparency and interpretability**.  
+
+By combining **multiple models and explainable AI techniques**, the system provides a practical and scalable solution for tackling deepfake challenges.
+
+
+---
+
+## By Aryan Singh
+## M.Tech CSE 
